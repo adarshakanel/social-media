@@ -1,0 +1,17 @@
+npm i express mongoose dotenv helmet morgan nodemon
+
+    express for api
+
+    mongoose to connect to mongo database
+
+    dotenv to protect the secret url for mongo by hiding it (also for any other keys we need to keep secret)
+
+    helmet for secure connection
+
+    morgan is login middleware
+
+    nodemon for constant dynamic node connection
+
+npm i bcypt
+
+    this is to encrypt the password before storage
