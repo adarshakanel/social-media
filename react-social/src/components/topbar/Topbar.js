@@ -5,11 +5,11 @@ export default function Topbar() {
     return (
         <div className='topbarContainer'>
             <div className="topbarLeft">
-                <span className="logo">Lamasocial</span>
+                <span className="logo">Social Media</span>
             </div>
             <div className="topbarCenter">
                 <div className="searchbar">
-                    <Search> </Search>
+                    <Search className='searchIcon'> </Search>
                     <input placeholder='Seach for friends, post or video' className="searchInput" />
                 </div>
             </div>
@@ -41,8 +41,9 @@ export default function Topbar() {
                             1
                         </span>
                     </div>
-                    <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
                 </div>
+                <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+
             </div>
         </div>
     );
